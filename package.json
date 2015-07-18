@@ -1,0 +1,40 @@
+{
+  "name": "angulartics-segment",
+  "version": "0.1.0",
+  "description": "Segment plugin for Angulartics",
+  "keywords": [
+    "segment",
+    "analytics",
+    "plugin",
+    "angular",
+    "angulartics"
+  ],
+  "author": "Luis Farzati <lfarzati@gmail.com> (https://github.com/luisfarzati)",
+  "contributors": [
+    "Leore Avidar <leore.avidar@gmail.com> (https://github.com/leore)",
+    "Tim Elfelt <timelf123@gmail.com> (https://github.com/timelf123)",
+    "Martin Wood-Mitrovski <mdk@relivethefuture.com> (https://github.com/Normalised)",
+    "Adam Creeger <adamcreeger@gmail.com> (https://github.com/acreeger)",
+    "Hugo Freire <hfreire@exec.sh> (https://github.com/hfreire)"
+  ],
+  "main": "lib/index.js",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "prebuild": "npm run clean",
+    "build": "mkdir -p dist && uglifyjs lib/angulartics-segment.js --compress --source-map dist/angulartics-segment.min.js.map --source-map-root .. --source-map-url ../dist/angulartics-segment.min.js.map -o dist/angulartics-segment.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angulartics/angulartics-segment"
+  },
+  "bugs": {
+    "url": "https://github.com/angulartics/angulartics-segment/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "angulartics": "~0.18.0"
+  },
+  "devDependencies": {
+    "uglify-js": "^2.4.23"
+  }
+}
