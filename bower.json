@@ -1,9 +1,9 @@
 {
-  "name": "angulartics-segment",
-  "version": "0.1.3",
+  "name": "ts-angulartics-segment",
+  "version": "0.2.0",
   "main": "./dist/angulartics-segment.min.js",
   "dependencies": {
-    "angulartics": "~1.0.2"
+    "angulartics": "~1.1.0"
   },
   "ignore": [
     "**/.*",
