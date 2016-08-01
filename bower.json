@@ -1,8 +1,9 @@
 {
   "name": "angulartics-segment",
   "main": "./dist/angulartics-segment.min.js",
+  "version": "0.2.0",
   "dependencies": {
-    "angulartics": "^1.0.2"
+    "angulartics": "^1.1.0"
   },
   "ignore": [
     "**/.*",

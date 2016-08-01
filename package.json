@@ -1,6 +1,6 @@
 {
   "name": "angulartics-segment",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "Segment plugin for Angulartics",
   "keywords": [
     "segment",
@@ -32,7 +32,7 @@
   },
   "license": "MIT",
   "peerDependencies": {
-    "angulartics": "^1.0.0"
+    "angulartics": "^1.1.0"
   },
   "devDependencies": {
     "uglify-js": "^2.4.23"
