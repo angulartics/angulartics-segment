@@ -79,3 +79,6 @@ npm run build
 [license-url]: LICENSE
 [slack-image]: https://angulartics.herokuapp.com/badge.svg
 [slack-url]: https://angulartics.herokuapp.com
+
+## 🚀 Segment Angular Quickstart
+Interested in writing analytics code once? With Segment, you can collect customer data from any source (web, mobile, server, CRM, etc.) and send it to over 250+ destinations (Google Analytics, Amplitude, Mixpanel, etc.) via the Segment dashboard. Follow the [tailored guide for Angular](https://github.com/segmentio/analytics-angular) to get setup.
